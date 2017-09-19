@@ -1,0 +1,304 @@
+html {
+  font-size: 18px;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+header {
+  background-image: url(../images/glasses-bg.png);
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  padding-top: 1rem;
+}
+
+body {
+  line-height: 1.4rem;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px 0 12px 0.5em;
+}
+
+.responsive {
+  display: none;
+}
+
+.containe-top {
+  display: inline;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+  list-style: none;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+.container-top {
+  width: 960px;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+
+.ad {
+  background-color: white;
+  width: max-content;
+  height: 5rem;
+  display: flex;
+  align-items: flex-end;
+  margin: 10rem -2rem auto auto;
+}
+
+.ad p {
+  margin: auto;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: max-content;
+  margin: 3rem auto auto auto;
+  text-align: center;
+}
+
+.service {
+  margin: 0 3rem;
+  height: 8rem;
+}
+
+.service.exam .img-resize {
+  width: 3rem;
+}
+
+.service.fittings .img-resize, .service.delivery .img-resize {
+  width: 5rem;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+.info-container {
+  margin: 3rem auto auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+.p1 {
+  margin: 1rem 5% 0 0;
+}
+
+.p2 {
+  margin: 1rem 0 0 5%;
+}
+
+.label {
+  width: 25%;
+  margin: 1rem 0 0 0;
+}
+
+footer {
+  display: flex;
+  background-color: cadetblue;
+  width: 960px;
+  margin: 5rem auto auto auto;
+  padding: 2rem 0 2rem 2rem;
+}
+
+footer img {
+  margin: auto 1rem auto 0;
+  height: 1.5rem;
+}
+
+.appointments.label .title {
+  margin: 0 0 0 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+  }
+  .container-top{
+    margin: 0;
+    width: auto;
+  }
+  header {
+    background-image: url(../images/glasses-bg.png);
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    display: block;
+    padding-top: 0;
+  }
+  .ad {
+    background-color: white;
+    width: max-content;
+    height: 5rem;
+    display: flex;
+    align-items: flex-end;
+    margin: 5rem 0 auto auto;
+  }
+
+  .ad p{
+    font-size: 1.33rem;
+  }
+
+  /*nav {
+    height: 2rem;
+    background-color: orange;
+  }*/
+  footer{
+    display: flex;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 470px) {
+
+  .menu, .container-menu span, footer p{
+    display: none;
+  }
+  .responsive{
+    display: block;
+    margin: auto;
+  }
+footer{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+header {
+  background-image: url(../images/glasses-bg.png);
+  height: 17rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+  display: block;
+  padding-top: 0;
+}
+.ad p {
+  font-size: 1rem;
+  padding: 1rem 0;
+
+}
+.ad{
+  width: 100%;
+  height: auto;
+  margin: 9rem 0 auto auto;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 3.77rem auto 3.77 auto;
+}
+
+.service.fittings{
+  margin: 1.54rem auto 1.54rem auto;
+
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: ;
+}
+.label .title{
+  width: 100%;
+  margin: 0;
+
+
+}
+.label {
+  width: 100%;
+  margin: 1rem 0 0 0;
+}
+
+.label p{
+    font-size: 0.77rem;
+}
+.appointments.label .title {
+    margin: 0;
+}
+.p2 {
+    margin: 1rem 0 0 0;
+}
+
+
+/*nav {
+
+  background-color: blue;
+  }*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*...*/
