@@ -278,6 +278,15 @@ header {
 .p2 {
     margin: 1rem 0 0 0;
 }
+.p1 {
+    margin: 1rem 0 4rem 0;
+}
+.label .title{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0.70rem;
+}
 
 
 /*nav {
