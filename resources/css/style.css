@@ -259,7 +259,7 @@ header {
   width: ;
 }
 .label .title{
-  width: 100%;
+  width: auto;
   margin: 0;
 
 
